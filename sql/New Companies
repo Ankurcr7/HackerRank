@@ -1,0 +1,1 @@
+select em.company_code,co.founder,count( distinct em.lead_manager_code ),count( distinct em.senior_manager_code ),count( distinct em.manager_code ), count( distinct em.employee_code ) from Employee em, Company co where em.company_code = co.company_code group by company_code, founder;
