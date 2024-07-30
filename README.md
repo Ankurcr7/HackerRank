@@ -6,4 +6,4 @@
 # You can use the below code to search in github search bar
 ## `repo:Ankurcr7/HackerRank path:{language}`
 
-## language = `python`, `C`, `mysql`
+## language = `python`, `c`, `sql`
